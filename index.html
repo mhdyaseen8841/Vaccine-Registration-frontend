@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="register.css"> -->
+    <link rel="stylesheet"  href="bootstrap.css" />
+    
+    <title>Vaccine Registration</title>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list pt-5">
+            <div class="logo"><img src="images/toppng.com-hospital-cross-in-3d-circle-comments-hospital-logo-png-hd-952x980.png" alt="logo"></div>
+            <h1 class="headlogo" >Vaccine Registration</h1>
+        </ul>
+        <div class="rightNav">
+            <input type="text" placeholder="Search" name="search" id="search">
+            <button class="btn btn-sm">search</button>
+        </div>
+    </nav>
+
+<div class="bigbox">
+    <div class="container">
+        <!-- <div class="row col-md-6 col-md-offset-3"> -->
+          <!-- <div class="panel panel-primary"> -->
+            <!-- <div class="panel-heading text-center"> -->
+              <h2 class="boxhead">REGISTRATION FORM FOR VACCINATION</h2>
+            </div>
+            <div class="panel-body">
+              <form action="connect.php" method="post">
+                <div class="form-group">
+                  <label for="name"><b>Name</b></label>
+                  <br>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    style="width: 80%;"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="age"><b>Age</b></label>
+                  <br>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="age"
+                    name="age"
+                    style="width: 80%;"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="gender"><b>Gender</b></label>
+                  <br>
+                  <div>
+                    <label for="male" class="radio-inline"
+                      ><input
+                        type="radio"
+                        name="gender"
+                        value="m"
+                        id="male"
+                      /> Male</label
+                    >
+                    <label for="female" class="radio-inline"
+                      ><input
+                        type="radio"
+                        name="gender"
+                        value="f"
+                        id="female"
+                      /> Female</label
+                    >
+                    <label for="others" class="radio-inline"
+                      ><input
+                        type="radio"
+                        name="gender"
+                        value="o"
+                        id="others"
+                      /> Others</label
+                    >
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="aadhar"><b>Aadhar Card</b></label>
+                  <br>
+                  <input
+                  
+                    type="text"
+                    class="form-control"
+                    id="aadhar"
+                    name="aadhar"
+                    style="width: 80%;"
+                  />
+                </div>
+                
+                <div class="form-group">
+                  <label for="phone"><b>Phone Number</b></label>
+                  <br>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="phone"
+                    name="phone"
+                    style="width: 80%;"
+                  />
+                </div>
+                
+            <button class="btn1 btn-sm">SUBMIT</button>
+              </form>
+            </div>
+            
+  </div>
+</div>
+</body>
+</html>
+

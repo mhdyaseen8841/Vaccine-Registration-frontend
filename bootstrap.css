@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-color:#0eb48d;
+}
+
+.logo{
+    width:30%;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    
+    align-items: flex-start;
+   
+}
+
+ img{
+    width: 43%;
+}
+
+.navbar{
+    display: flex;
+    /* border: 2px solid red; */
+    height: 20vh;
+    
+}
+
+.nav-list{
+    width: 50%;
+    /*background-color: skyblue;*/
+    display:flex;
+    
+    
+}
+
+
+
+
+.nav-list li a:hover{
+    color:rgb(255, 255, 255);
+}
+.rightNav{
+   
+    width: 45%;
+    padding-top: 15px;
+    text-align: right;
+    /* border:2px solid red; */
+ 
+ 
+ }
+ 
+ #search{
+     padding: 5px;
+     font-size: 17px;
+     border: 2px solid rgb(97, 97, 97);
+     border-radius: 9px ;
+     /* background: none; */
+     
+     
+ }
+ .btn{
+     padding: 4px 15px;
+     margin: 7px 0;
+     font-size: 15px;
+     border: 2px solid rgb(97, 97, 97);
+     border-radius: 10px;
+     background:none;
+     cursor:pointer;
+ }
+.container{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    width: 32%;
+    /* margin-top: 80px; */
+    margin-left: 420px;
+    
+    background: rgb(255, 255, 255);
+    /* border-radius: 9px; */
+}
+.panel-body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+    width:32%;
+    /* margin-top: 30px; */
+    margin-left: 420px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    /* padding-top: 20px; */
+
+}
+.bigbox{
+    /* border: 2px solid black; */
+    background: #ecebeb;
+    height: 80vh;
+    padding-top: 40px;
+    padding-left: 200px;
+
+
+}
+.form-group{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    margin: 10px;
+    padding-left: 2px;
+}
+input.form-control{
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-top:5px;
+    border: 2px solid rgb(158, 155, 155);
+    border-radius: 6px;
+}
+input#male{
+    margin-top: 10px;
+}
+.btn1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 4px 15px;
+    margin: 7px 0;
+    margin-left: 160px;
+    margin-top: 30px;
+    font-size: 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background:none;
+    cursor:pointer;
+}
+.boxhead{
+    font-size: 22px;
+}
+.headlogo{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    padding-top: 30px;
+}
